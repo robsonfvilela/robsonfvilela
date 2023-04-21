@@ -28,9 +28,9 @@
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     -->
     <img align="center" alt="Markdown" height="45" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
-    <img align="center" alt="Quarto" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
-    <img align="center" alt="RMarkdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/qmarkdown.png">
-    <img align="center" alt="RStudion" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
+    <img align="center" alt="Quarto" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/qmarkdown.png">
+    <img align="center" alt="RMarkdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
+    <img align="center" alt="RStudion" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/e8b3fba9d1f969af46b3852d84f6a201330d64e9/logos/rstudio-original.svg">
     <img align="center" alt="Python" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/e8b3fba9d1f969af46b3852d84f6a201330d64e9/logos/python-original.svg">
     
     <img align="center" alt="Quarto" height="40" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/qmarkdown.png">
