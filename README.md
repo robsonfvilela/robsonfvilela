@@ -15,7 +15,7 @@
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <div align="center">
   <a href="https://">
-  <img height="180em" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=robsonfvilela&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=robsonfvilela&layout=compact&langs_count=7&theme=cobalt"/>
 </div>
   
@@ -27,7 +27,7 @@
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     -->
-  <img align="center" alt="Markdown" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg">
+  <img align="center" alt="Markdown" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg">
     <img align="center" alt="RStudio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rstudio/rstudio-original.svg">
     <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <!--
