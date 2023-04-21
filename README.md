@@ -1,4 +1,4 @@
-### Oi, eu sou o Robson! 👋
+### Oi, eu sou o Robson! 🖖🏼
 
 <!--
 - 🔭 I’m currently working on ...
