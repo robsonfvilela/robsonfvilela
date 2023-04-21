@@ -13,9 +13,9 @@
 
 <!-- GITHUB STATS -->
 <!-- https://github.com/anuraghazra/github-readme-stats -->
-<div align="center" style="background-color:aliceblue;padding:25px;">
+<div align="center">
   <a href="https://">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=robsonfvilela&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=robsonfvilela&layout=compact&langs_count=7&theme=cobalt"/>
 </div>
   
