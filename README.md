@@ -27,6 +27,8 @@
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     -->
+    <img align="center" alt="Markdown" height="40" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
+    
     <img align="center" alt="Markdown" height="40" width="40" src="https://github.com/robsonfvilela/profrobson/blob/main/logos/rmarkdown.png?raw=true">
     
     <img align="center" alt="Markdown" height="30" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/qmarkdown.png">
