@@ -35,7 +35,7 @@
 <!--
   <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 -->
-  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/avatar.pngg">
+  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/avatar.png">
 </div>
   
   <!--
