@@ -44,10 +44,6 @@
 <!-- https://dev.to/envoy_/150-badges-for-github-pnk -->
 <div>
   
-  
-  
-    <a href = "https://instagram.com/robsonfvilela"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  
   <a href="https://instagram.com/robsonfvilela" target="_blank"><img src="[https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white)" target="_blank"></a>
   
   <a href="https://instagram.com/robsonfvilela" target="_blank"><img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white" target="_blank"></a>
