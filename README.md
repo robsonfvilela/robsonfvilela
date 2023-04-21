@@ -56,8 +56,9 @@
   
   <a href="https://instagram.com/robsonfvilela" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   
+  <!--
   <a href="https://www.linkedin.com/in/robson-ferreira-vilela-21682151/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- 
+ -->
  
   ![Snake animation](https://raw.githubusercontent.com/robsonfvilela/profrobson/808c57a656b4d686aea24cd061d84201e0b2afde/logos/github-contribution-grid-snake.svg)
  
