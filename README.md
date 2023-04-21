@@ -29,6 +29,9 @@
     -->
     <img align="center" alt="Markdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
     <img align="center" alt="Markdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
+    <img align="center" alt="Markdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
+    <img align="center" alt="Markdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/rmarkdown.png">
+    <img align="center" alt="Markdown" height="50" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/e8b3fba9d1f969af46b3852d84f6a201330d64e9/logos/python-original.svg">
     
     <img align="center" alt="Quarto" height="40" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/main/logos/qmarkdown.png">
     
