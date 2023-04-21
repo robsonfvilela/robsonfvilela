@@ -27,7 +27,7 @@
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     -->
-  <img align="center" alt="Markdown" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg">
+  <img align="center" alt="Markdown" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/3/37/Markdown-mark-solid.svg">
     <img align="center" alt="RStudio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rstudio/rstudio-original.svg">
     <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <!--
