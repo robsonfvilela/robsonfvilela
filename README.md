@@ -27,8 +27,14 @@
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     -->
-  <img align="center" alt="Markdown" height="30" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/0dffe6db8f9881fbf44550914ef3b919866dd7df/logos/Markdown-mark-solid.svg">
+    <img align="center" alt="Markdown" height="30" width="40" src="https://github.com/robsonfvilela/profrobson/blob/main/logos/rmarkdown.png?raw=true">
+    
+    <img align="center" alt="Markdown" height="30" width="40" src="https://raw.githubusercontent.com/robsonfvilela/profrobson/0dffe6db8f9881fbf44550914ef3b919866dd7df/logos/Markdown-mark-solid.svg">
+    
+    <img align="center" alt="Markdown" height="30" width="40" src="https://github.com/robsonfvilela/profrobson/blob/main/logos/qmarkdown.png?raw=true">
+    
     <img align="center" alt="RStudio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rstudio/rstudio-original.svg">
+    
     <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <!--
   <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
