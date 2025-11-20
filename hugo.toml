@@ -5,4 +5,4 @@ theme = 'terminal'
 
 # Pega apenas o nome do arquivo para criar a URL, sem as barras adicionais
 [permalinks]
-    posts = '/:filename/'   
+    posts = '/:contentbasename/'   
