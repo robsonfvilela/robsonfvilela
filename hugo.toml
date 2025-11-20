@@ -1,0 +1,8 @@
+baseURL = 'https://robsonfvilela.github.io/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'terminal'
+
+# Pega apenas o nome do arquivo para criar a URL, sem as barras adicionais
+[permalinks]
+    posts = '/:filename/'   
