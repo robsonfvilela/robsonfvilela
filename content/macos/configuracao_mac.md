@@ -1,6 +1,6 @@
 ---
 title: Configuração do MacOS
-# date: 2025-12-02
+date: 2025-12-02
 draft: false
 tags: [mac]
 ---
