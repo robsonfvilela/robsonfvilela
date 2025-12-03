@@ -1,13 +1,15 @@
 ---
 title: Configuração do MacOS
-date: 2025-12-02
+# date: 2025-12-02
 draft: false
 tags: [mac]
 ---
 
 <!--more-->
 
-## Homebrew, MacPorts e Nix
+> As configurações abaixo são para o **MacOs Monterey** (12.7.6), no **MacBook Pro (Retina, 13-inch, Early 2015)**.
+
+## 1. Homebrew, MacPorts e Nix
 
 ### Instalar HOMEBREW
 ```sh
@@ -177,7 +179,7 @@ brew install --cask visual-studio-code
 brew install --cask intellij-idea-ce
 ```
 
-## Outros
+## 2. Outros
 
 ### Instalar Charge Limiter
 ```sh

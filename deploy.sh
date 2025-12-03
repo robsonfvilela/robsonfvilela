@@ -4,7 +4,7 @@ commit="no message for this commit"
 [[ "${1}" ]] && commit=${1}
 
 cd public
-git checkout main
+git checkout programming
 git add .
 git commit -m "${commit}"
 git push origin main
