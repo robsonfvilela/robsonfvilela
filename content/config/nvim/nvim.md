@@ -1,7 +1,7 @@
 ---
 title: "NeoVim"
 # date: 2025-11-19
-tags: [config, personal]
+tags: [config]
 ---
 
 Arquivo de configuração do Neovim, com LazyVim e algumas customizações.

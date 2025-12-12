@@ -1,7 +1,7 @@
 ---
 title: GIT
 # date: 2025-11-19
-tags: [terminal, git, personal]
+tags: [terminal, git]
 draft: false
 ---
 
@@ -29,6 +29,20 @@ eval "$(ssh-agent -s)"
 **Se aparecer a mensagem de que a chave SSH está _to open_, mude a permissão:**
 ```ssh
 chmod 600 ~/.ssh/id_ed25519
+```
+- `600`: somente o usuário pode ler e escrever.
+
+Para conferirir:
+```sh
+ls -l ~/.ssh
+```
+O resultado deve ser algo como: 
+
+`-rw-------  1 usuario  grupo   411  id_ed25519`
+
+**Depois, adicione novamente:**
+```sh
+ssh-add ~/.ssh/id_ed25519
 ```
 
 **Ler a chave SSH e adicionar ao GitHub:**

@@ -2,7 +2,7 @@
 title: Instalação de App
 # date: 2025-12-02
 draft: false
-tags: [mac]
+tags: [mac, app]
 ---
 
 <!--more-->

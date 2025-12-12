@@ -1,7 +1,7 @@
 ---
 title: Kitty
 # date: 2025-11-19
-tags: [config, personal]
+tags: [config]
 ---
 
 Arquivo de configuração do terminal Kitty.

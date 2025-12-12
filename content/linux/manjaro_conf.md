@@ -2,7 +2,7 @@
 title: Configuração do Manjaro
 # date: 2025-12-02
 draft: false
-tags: [Linux]
+tags: [linux, manjaro]
 ---
 
 <!--more-->

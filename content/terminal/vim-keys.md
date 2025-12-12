@@ -1,7 +1,7 @@
 ---
 title: Vim Keys
 # date: 2024-06-10
-tags: [terminal, vim, tutorial]
+tags: [terminal, vim]
 ---
 
 <!--more-->
