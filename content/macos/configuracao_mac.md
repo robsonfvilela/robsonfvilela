@@ -1,6 +1,6 @@
 ---
-title: Configuração do MacOS
-# date: 2025-12-02
+title: Configurações
+# date: 2025-12-12
 draft: false
 tags: [mac]
 ---
@@ -9,184 +9,126 @@ tags: [mac]
 
 > As configurações abaixo são para o **MacOs Monterey** (12.7.6), no **MacBook Pro (Retina, 13-inch, Early 2015)**.
 
-## 1. Homebrew, MacPorts e Nix
 
-### Instalar HOMEBREW
+
+<!-- ----------------------------------------------------->
+<!-- DICAS ----------------------------------------------->
+## 1. Dicas
+
+### Criar Atalho para Abrir Aplicativos Específicos
+
+[YouTube](https://www.youtube.com/watch?v=YRBsHYEn_7Q)
+
+
+## Configurações
+
+### Link Simbólico
+
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ln -s "<origmem>" "<destino>"
+```
+- `-s`: soft link: vários links diferentes que apontam para um mesmo arquivo.
+- Tem número de inode diferente do arquivo original. Use `ls -li` para mostrar o inode.
+- Se apagar o arquivo original, o soft link fica quebrado.
+
+```sh
+ln "<origmem>" "<destino>"
+```
+- Sem o `-s`, cria um hard link. Duas entradas para o mesmo arquivo.
+- Tem número de inode igual ao do arquivo original.
+- Se apagar o arquvio original, o hard link continua funcionando, porque, na prática, são arquivos diferentes.
+
+
+
+
+
+
+
+
+
+<!--
+### ⌨️ Multipass
+[How to Run Ubuntu on macOS Like WSL (WSL-Style Experience)](https://dev.to/ryfazrin/how-to-run-ubuntu-on-macos-like-wsl-wsl-style-experience-4cd4)
+```sh
+brew install --cask multipass
 ```
 
-**Atualizar Homebrew**
+**Executar**
 ```sh
-brew install update && brew install upgrade
+multipass launch --name ubuntu --mem 2G --disk 10G
+multipass shell ubuntu
 ```
 
-### Instalar MacPorts (Monterey)
+**Montar diretório do MacOS no Ubuntu**
 ```sh
-https://github.com/macports/macports-base/releases/download/v2.11.6/MacPorts-2.11.6-12-Monterey.pkg
+multipass mount ~/Projects ubuntu:/home/ubuntu/Projects
 ```
 
-### Instalar NIX
-```sh
-curl -L https://nixos.org/nix/install | sh
-```
-
-### Instlar Git
-```sh
-brew install git
-```
+### ⌨️ Colima
+[abiosoft / colima](https://github.com/abiosoft/colima)
 
 ```sh
-nix-env -iA nixpkgs.git
-```
-
-### Instalar Kitty
-```sh
-brew install --cask kitty
-```
-
-### Instalar ZSH
-```sh
-brew install zsh
-```
-
-**Definir ZSH como Shell Padrão**
-
-_Em Mac M1:_
-```sh
-chsh -s $(which zsh)
-```
-
-_Em Mac Intel:_
-```sh
-chsh -s /usr/local/bin/zsh
-```
-
-### Instalar Oh My ZSH
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### Instalar Tema Powerlevel 10 K
-```sh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
-### 
-
-```sh
-cd powerlevel10k
+brew install colima
 ```
 
 ```sh
-./prompt_powerlevel9k_setup
-```
-
-### Instlar NeoVim
-```sh
-brew install neovim
-```
-### Instalar LazyVim
-
-_Make a backup of your current Neovim files:_
-```sh
-mv ~/.config/nvim{,.bak}
-```
-
-_optional but recommended_
-```sh
-mv ~/.local/share/nvim{,.bak}
-mv ~/.local/state/nvim{,.bak}
-mv ~/.cache/nvim{,.bak}
-```
-
-_Clone the starter_
-```sh
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-```
-
-_Remove the .git folder, so you can add it to your own repo later_
-```sh
-rm -rf ~/.config/nvim/.git
-```
-
-_Start Neovim!_
-```sh
-nvim
-```
-Rode `:LazyHealth` depois da instalação.
-
-
-### Instalar btop
-```sh
-brew install btop
+sudo port install colima
 ```
 
 ```sh
-nix-env -iA nixpkgs.btop
-```
-
-### Instalar bat
-```sh
-brew install bat
-```
-
-### Instalar fzf
-```sh
-brew install fzf
+nix-env -iA nixpkgs.colima
 ```
 
 ```sh
-nix-env -iA nixpkgs.fzf
+mise use -g colima@latest
 ```
 
-### Instalar yazi
+### ⌨️ Docker
+
+Instalar
 ```sh
-brew install yazi
+brew install --cask docker
+```
+Rodar
+```sh
+open /Applications/Docker.app
+```
+Baixar Ubuntu e rodar
+```sh
+docker run -it ubuntu bash
 ```
 
-### Instalar Fastfetch
-```sh
-brew install fastfetch
-```
-
-```sh
-nix-shell -p fastfetch
-```
-
-```sh
-sudo port install fastfetch
-```
-
-### Instalar Hugo
-```sh
-brew install hugo
-```
+### ⌨️ QEMU
 
 ```sh
-nix-shell -p hugo
+brew install qemu
 ```
-
 ```sh
-sudo port install hugo
+sudo port install qemu
 ```
-
-### Instalar Visual Studio Code
 ```sh
-brew install --cask visual-studio-code
-```
 
-### Instalar IntelliJ CE
+```
 ```sh
-brew install --cask intellij-idea-ce
+
 ```
-
-## 2. Outros
-
-### Instalar Charge Limiter
 ```sh
-https://github.com/itsjoshpark/charge-limiter/releases/tag/v1.5.1
+
+```
+```sh
+
+```
+```sh
+
+```
+```sh
+
+```
+```sh
+
 ```
 
-### Instala AppCleaner
-```sh
-https://freemacsoft.net/appcleaner/#google_vignette
-```
+### Distrobox
+[GitHub](https://gist.github.com/gianlucamazza/f9b57d6796a97981908f7c2bbda706fc)
+
+-->

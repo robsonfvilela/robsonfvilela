@@ -1,7 +1,14 @@
 baseURL = 'https://robsonfvilela.github.io/'
-languageCode = 'en-us'
+languageCode = 'pt-br'
 title = 'My New Hugo Site'
-theme = 'terminal'
+# theme = 'terminal'
+
+## Tema RELEARN ----------------------------------
+theme = 'hugo-theme-relearn'
+
+# hugo server -t hugo-theme-relearn --disableFastRender --noHTTPCache
+## -----------------------------------------------
+
 
 # baseurl = "/"
 # languageCode = "en-us"
@@ -15,6 +22,9 @@ pagination.pagerSize = 5
   noClasses = false
 
 [params]
+## Variações do tema 'hugo-theme-relearn' --------
+  themeVariant = ['relearn-dark', 'relearn-light', 'relearn-bright', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red']
+## -----------------------------------------------
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"

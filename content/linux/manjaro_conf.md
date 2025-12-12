@@ -78,6 +78,23 @@ flatpak install flathub org.inkscape.Inkscape
 flatpak run org.inkscape.Inkscape
 ```
 
+### Warehouse (Gerenciador de Flatpak)
+```sh
+flatpak install flathub io.github.flattool.Warehouse
+```
+
+```sh
+flatpak run io.github.flattool.Warehouse
+```
+
+### Gear Lever (Gerenciador de AppImage)
+```sh
+flatpak install flathub it.mijorus.gearlever
+````
+
+```sh
+flatpak run it.mijorus.gearlever
+```
 
 ### IntelliJ IDEA CE
 ```sh
@@ -189,6 +206,8 @@ flatpak run org.videolan.VLC
 ```sh
 sudo pacman -S kitty
 ```
+
+
 
 
 <!-- APLICATIVOS DE LINHA DE COMANDO -->
