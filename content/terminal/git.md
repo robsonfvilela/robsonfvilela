@@ -7,6 +7,41 @@ draft: false
 
 <!--more-->
 
+## Configurar
+
+## Chave SSH no GitHub
+
+**Verificar se existe Chave SSH no seu sistema:**
+```sh
+ls -al ~/.ssh
+```
+
+**Gerar chave SSH**
+```sh
+ssh-keygen -t ed25519 -C "usuario@email.com"
+```
+
+**Agent pid**
+```sh
+eval "$(ssh-agent -s)"
+```
+
+**Se aparecer a mensagem de que a chave SSH está _to open_, mude a permissão:**
+```ssh
+chmod 600 ~/.ssh/id_ed25519
+```
+
+**Ler a chave SSH e adicionar ao GitHub:**
+
+Ler:
+```sh
+cat id_ed25519.pub
+```
+
+Adicionar
+- Settings > SSH and GPG Keys > New SSH Key > Key type: Authentication Key
+
+
 ## Comandos básicos do Git
 
 ### `git init`
